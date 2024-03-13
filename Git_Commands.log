@@ -1,0 +1,13 @@
+GIT AND GITHUB
+
+git init    Start a repository
+git add filename    Add a file to the repository
+git commit -m "Version 1"   Send changes to the repository with a comment, the m add the comment
+git add .   Add the full folder to the repository
+git log filename    Show the full historical of a file
+git config --list   Check the configuration details of git
+git config --list --show-origin     Check the path of the repositories
+git config --global VariableName "Here the value of the variableName"
+git show    Show the changes done of the files
+git diff "Here is the commit id 1" "Here is the commit id 2"
+
