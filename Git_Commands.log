@@ -32,6 +32,8 @@ git log --grep=ReferenceWord -i Looks for all commits that contains the referenc
 git log -S ReferenceWord    Looks for commits that contains into the file the ReferenceWord
 git log > log.txt Saved the logs in a log file
 git branch branchName   Create a branch with name set in branchName
+git remote add origin URLofTheOriginHere	Pull the repository from Github to my local git repository
+git remote -v	Show the remote repositorios to fetch and pull
 
 STEPS GENERATE A KEY IN GIT (Some of the steps are exclusive for mac and wouldn't work with Windows or Linux)
 - Command:	ssh-keygen -t rsa -b 4096 -C "hassanmarquez@gmail.com"
